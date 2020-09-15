@@ -1,0 +1,14 @@
+.encabezado{
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.encabezado img{
+    height: 50px;
+}
