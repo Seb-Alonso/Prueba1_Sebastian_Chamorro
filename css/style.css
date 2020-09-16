@@ -1,3 +1,7 @@
+body{
+    background: cornsilk;
+}
+
 .encabezado{
     display: flex;
     justify-content: space-between;
@@ -11,6 +15,13 @@
 .menu p a{
     text-decoration: none;
     margin: 32px;
+    color: black;
+}
+
+.imagen img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
 }
 
 .suscripcion{
@@ -22,5 +33,40 @@
 }
 
 .articulos img{
-    height: 400px;
+    height: 350px;
 }
+
+.articulos{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.sobre{
+    display: flex;
+    justify-content: space-between;
+    background: white;
+}
+
+.texto h2{
+    text-align: center;
+}
+
+.texto p{
+    padding: 10px;
+}
+
+.suscribete{
+    text-align: center;
+}
+
+.social img{
+    height: 45px;
+    border-radius: 45px;
+}
+
+.final{
+    display: flex;
+    justify-content: space-between;
+}
+
